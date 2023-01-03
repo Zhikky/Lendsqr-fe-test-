@@ -1,0 +1,10 @@
+.dashboard {
+  position: absolute;
+  width: 1440px;
+  height: 1384px;
+  margin: 0%;
+}
+
+.dashboard-content-container{
+  display: flex;
+}

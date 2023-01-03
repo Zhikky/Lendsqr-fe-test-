@@ -1,0 +1,86 @@
+.borrower-container {
+  margin: 0px;
+  padding: 0px;
+  width: 283px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+.switch-container {
+  display: flex;
+  height: 19px;
+  padding-top:39px;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.switch {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #213f7d;
+  margin-left: 10px;
+  margin-right: 10.39px;
+  margin-top: 0px;
+}
+
+.fa-chevron-down {
+  margin-left: 0px;
+}
+
+.home-container {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 52px;
+  height: 19px;
+}
+
+.home-content {
+  margin-top: 0px;
+  margin-left: 10px;
+  color: #21407d9c;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.customer-header, .business-header, .settings-header{
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  margin-left: 30px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color:#545F7D;
+}
+
+.customers {
+  width: 283px;
+  height: 40px;
+  left: 0px;
+  top: 294px;
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.customers:hover {
+  background: #39cdcd2c;
+  
+}
+
+.customers > p {
+  color: #21407d9c;
+  font-family: "Work Sans";
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.customers > i {
+  margin-left: 30px;
+}

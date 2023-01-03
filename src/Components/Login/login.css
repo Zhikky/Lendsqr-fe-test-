@@ -1,0 +1,151 @@
+/* Log In */
+.container {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+  background: #ffffff;
+}
+
+.logo-container {
+  display: flex;
+  position: absolute;
+  width: 173.76px;
+  height: 36px;
+  left: 97px;
+  top: 106px;
+  justify-content: space-between;
+}
+
+.image2 {
+  height: 36px;
+  left: 132.33px;
+  top: 106px;
+}
+
+.picture {
+  position: absolute;
+  width: 600px;
+  height: 337.57px;
+  left: 67px;
+  top: 281px;
+  background-image: url("/Users/israeladetuwo/Documents/lendsqr/lendsqr-app/src/images/pablo-sign-in 1 (1).svg");
+}
+
+.title {
+  margin-top: 0px;
+  color: #213f7d;
+}
+
+.header-container {
+  position: absolute;
+  width: 704px;
+  height: 900px;
+  left: 736px;
+  top: -5px;
+  box-shadow: 0px 15px 90px rgba(0, 0, 0, 0.03);
+}
+
+h3 {
+  color: #213f7d;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -0.04em;
+  width: 183px;
+  height: 55px;
+  margin-top: 220px;
+  margin-left: 100px;
+  margin-bottom: 0;
+}
+
+section > p{
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #545f7d;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.input1 {
+  border: 2px solid rgba(84, 95, 125, 0.15);
+  border-radius: 5px;
+  width: 431px;
+  height: 50px;
+  margin-left: 100px;
+  margin-top: 24px;
+  padding-left: 16px;
+  outline: none;
+}
+
+
+.password-container {
+  border: 2px solid rgba(84, 95, 125, 0.15);
+  border-radius: 5px;
+  width: 431px;
+  height: 50px;
+  margin-left: 100px;
+  margin-top: 24px;
+  padding-left: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input2 {
+  border: 0px;
+  outline: none;
+}
+
+#show {
+  background-color: #ffffff;
+  border: 0px;
+  color: #39cdcc;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 18px;
+  margin-right: 17.64px;
+}
+
+a {
+  display: flex;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 24px;
+  text-decoration: none;
+  margin-left: 100px;
+  color: #39cdcc;
+}
+
+.submit {
+  border: 2px solid rgba(84, 95, 125, 0.15);
+  border-radius: 5px;
+  width: 447px;
+  height: 48px;
+  margin-left: 100px;
+  margin-top: 24px;
+  padding-left: 16px;
+  background: #39cdcc;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: "Avenir Next";
+  font-style: normal;
+}
+
+#show:hover {
+  cursor: default;
+}

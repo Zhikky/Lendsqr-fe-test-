@@ -1,0 +1,47 @@
+.pagination-container {
+  display: flex;
+  margin-left: 60px;
+  margin-top: 20px;
+  width: 1037px;
+  height: 30px;
+  justify-content: space-between;
+}
+
+.item-number-container {
+  display: flex;
+  width: 227px;
+  height: 30px;
+  justify-content: space-between;
+}
+
+.item-number-container > p,
+.item-number-container > div > label {
+  color: #545f7d;
+  margin-top: 0px;
+  font-size: 14px;
+}
+
+#input-number {
+  width: 80px;
+  background: rgba(33, 63, 125, 0.1);
+  border-radius: 4px;
+  height: 25px;
+  border: 0px;
+  appearance: text;
+  padding-left: 12px;
+}
+
+.page-number-container {
+  width: auto;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-number-container > button {
+  width: 24px;
+  border: none;
+  background: rgba(33, 63, 125, 0.1);
+  border-radius: 4px;
+  margin-right: 10px;
+}
