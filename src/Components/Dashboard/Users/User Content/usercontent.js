@@ -9,42 +9,42 @@ function UserContent({UserContext,}) {
     <div className="user-content-container">
       <div className="user-content-box">
         <div className="user-content-header">
-          <div>
-            <p>ORGANIZATION</p>
+          <button className="title-company">
+            ORGANIZATION
             <i>
               <img src={filterIcon} alt="" />
             </i>
-          </div>
-          <div>
-            <p>USERNAME</p>
+          </button>
+          <button className="title-name">
+            USERNAME
             <i>
               <img src={filterIcon} alt="" />
             </i>
-          </div>
-          <div>
-            <p>EMAIL</p>
+          </button>
+          <button className="title-email">
+            EMAIL
             <i>
               <img src={filterIcon} alt="" />
             </i>
-          </div>
-          <div>
-            <p>PHONE NUMBER</p>
+          </button>
+          <button className="title-number">
+            PHONE NUMBER
             <i>
               <img src={filterIcon} alt="" />
             </i>
-          </div>
-          <div>
-            <p>DATE JOINED</p>
+          </button>
+          <button className="title-date">
+            DATE JOINED
             <i>
               <img src={filterIcon} alt="" />
             </i>
-          </div>
-          <div>
-            <p>STATUS</p>
+          </button>
+          <button className="title-status">
+            STATUS
             <i>
               <img src={filterIcon} alt="" />
             </i>
-          </div>
+          </button>
         </div>
 
         <div className="user-details">

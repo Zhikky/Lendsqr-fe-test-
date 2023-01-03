@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar/navbar";
 import Borrower from "./BorrowerNav/borrower";
 import Users from "./Users/users";
-import "./dashboard.css";
+import "../Styles/dashboard.css";
 
 function Dashboard() {
   return (

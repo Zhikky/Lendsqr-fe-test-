@@ -1,4 +1,6 @@
 import React from "react";
+
+// Same concept of importing Icons as Business Functional Component
 import settings from "/Users/israeladetuwo/Documents/lendsqr/lendsqr-app/src/images/settings.png";
 import percentage from "/Users/israeladetuwo/Documents/lendsqr/lendsqr-app/src/images/badge-percent 1.png";
 import auditLog from "/Users/israeladetuwo/Documents/lendsqr/lendsqr-app/src/images/audit log.png";

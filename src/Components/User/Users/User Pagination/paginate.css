@@ -1,0 +1,75 @@
+.pagination-container {
+  display: flex;
+  margin: 20px 0px 20px 60px;
+  width: 1037px;
+  height: 30px;
+  justify-content: space-between;
+}
+
+.item-number-container {
+  display: flex;
+  width: 227px;
+  height: 30px;
+}
+
+.item-number-container > p{
+  margin-left: 10px;
+}
+
+.item-number-container > p,
+.item-number-container > div > label {
+  color: #545f7d;
+  margin-top: 0px;
+  font-size: 14px;
+}
+
+#input-number {
+  width: 80px;
+  background: rgba(33, 63, 125, 0.1);
+  border-radius: 4px;
+  height: 25px;
+  border: 0px;
+  appearance: text;
+  padding-left: 12px;
+}
+
+.page-number-container {
+  width: auto;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-number-container > button {
+  width: 24px;
+  border: none;
+  background: rgba(33, 63, 125, 0.1);
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.page-number{
+  display: flex;
+  margin: 0px 10px;
+}
+
+.page-number > button {
+  width: 24px;
+  border: none;
+  background-color: #ffffff;
+  font-weight: 500;
+  color: #545F7D;
+  opacity: 0.5;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 16px;
+} 
+
+.page-number > button:hover{
+  opacity: 1;
+}
+
+.page-number > button.active{
+  color: #545F7D;
+  opacity: 1;
+}

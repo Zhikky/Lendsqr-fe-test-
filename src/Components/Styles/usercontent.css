@@ -1,0 +1,89 @@
+.details-container {
+  margin-top: 30px;
+  height: 200px;
+  border-bottom: 1px solid #21407d21;
+}
+
+.details-container > span {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #213f7d;
+}
+
+.details-container2 {
+  margin-top: 30px;
+  height: 130px;
+  border-bottom: 1px solid #21407d21;
+}
+
+.details-container2 > span {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #213f7d;
+}
+
+.personal-details1 {
+  display: flex;
+}
+
+.personal-details1 > div {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  height: 41px;
+  margin-right: 30px;
+}
+
+.details-container > div:nth-child(3){
+    margin-top: 35px;
+}
+
+.personal-details2 {
+  display: flex;
+}
+
+.personal-details2 > div {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  height: 41px;
+  margin-right: 20px;
+}
+
+.personal-details1 > div > span:nth-child(1) {
+  color: #545f7d;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 30px;
+}
+
+.personal-details1 > div > span:nth-child(2) {
+  color: #545f7d;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 8px;
+}
+
+.personal-details2 > div > span:nth-child(1) {
+  color: #545f7d;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 30px;
+}
+
+.personal-details2 > div > span:nth-child(2) {
+  color: #545f7d;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 8px;
+}

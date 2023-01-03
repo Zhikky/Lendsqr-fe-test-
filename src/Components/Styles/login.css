@@ -45,7 +45,7 @@
   box-shadow: 0px 15px 90px rgba(0, 0, 0, 0.03);
 }
 
-h3 {
+.header-container > h3 {
   color: #213f7d;
   font-family: "Avenir Next";
   font-style: normal;
@@ -133,19 +133,26 @@ a {
 
 .submit {
   border: 2px solid rgba(84, 95, 125, 0.15);
-  border-radius: 5px;
   width: 447px;
   height: 48px;
-  margin-left: 100px;
-  margin-top: 24px;
-  padding-left: 16px;
+  margin: 24px 0px 0px 100px;
   background: #39cdcc;
   border-radius: 8px;
   color: #ffffff;
   font-family: "Avenir Next";
   font-style: normal;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #show:hover {
   cursor: default;
+}
+
+@media (max-width: 737px){
+  .container > div{
+    display: none;
+  }
 }

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 function UserDetails(props) {
   return (
@@ -18,9 +18,11 @@ function UserDetails(props) {
       <div className="detail-date">
         <p>Apr 30, 2020 10:00 AM</p>
       </div>
-      <div className="detail-status">
+      <div className="detail-status" id="detail-status">
         <p>Active</p>
+        <i class="fa-solid fa-ellipsis-vertical"></i>
       </div>
+      <div />
     </div>
   );
 }

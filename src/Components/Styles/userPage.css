@@ -1,0 +1,10 @@
+.user-page {
+  position: absolute;
+  width: 1440px;
+  height: 1384px;
+  margin: 0%;
+}
+
+.user-page-container{
+  display: flex;
+}

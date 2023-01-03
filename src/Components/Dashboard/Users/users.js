@@ -1,13 +1,11 @@
 import React, { useState, createContext, useEffect } from "react";
-import "./users.css";
-import "./User Pagination/paginate.css";
+import "/Users/israeladetuwo/Documents/lendsqr/lendsqr-app/src/Components/Styles/userbox.css";
 import Userbox from "./User Header box/userbox";
 import UserContent from "./User Content/usercontent";
 import Paginate from "./User Pagination/paginate";
 
 function Users() {
   const UserContext = createContext();
-  const PageNumber = createContext();
 
   const [details, setDetails] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
@@ -23,6 +21,7 @@ function Users() {
 
   function postPerPageHandler() {
     let postPerPageNumber = document.getElementById("input-number").value;
+    console.log(document.getElementById("input-number"));
     setPostPerPage(postPerPageNumber);
   }
 
@@ -35,7 +34,7 @@ function Users() {
   }
 
   function prevPageHandler() {
-    if (currentPage != 1) {
+    if (currentPage !== 1) {
       setCurrentPage((currentPage) => currentPage - 1);
     } else {
       setCurrentPage(1);
@@ -57,11 +56,16 @@ function Users() {
           <div className="item-number-container">
             <div>
               <label for="postNumber">Showing </label>
-              <select id="input-number" onInput={postPerPageHandler}>
+              <select
+                id="input-number"
+                name="input-number"
+                onInput={postPerPageHandler}
+              >
+                <option className="first-option">{postPerPage}</option>
                 <option value="10">10</option>
                 <option value="20">20</option>
-                <option value="30">30</option>
-                <option value="40">40</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
               </select>
             </div>
             <p>out of 100</p>
@@ -70,7 +74,12 @@ function Users() {
             <button className="prev" onClick={prevPageHandler}>
               <i class="fa-solid fa-angle-left"></i>
             </button>
-            <Paginate totalPosts={details.length} postPerPage={postPerPage} />
+            <Paginate
+              totalPosts={details.length}
+              postPerPage={postPerPage}
+              setCurrentPage={setCurrentPage}
+              currentPage={currentPage}
+            />
             <button className="next" onClick={nextPageHandler}>
               <i class="fa-solid fa-chevron-right"></i>
             </button>
